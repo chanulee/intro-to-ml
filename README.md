@@ -1,6 +1,6 @@
 # Introduction to Machine Learning
 
-Machine learning is a broad topic, with a wide range of applications in scientific research. 
+[Imperial Intro to Machine Learning](https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/introduction-to-machine-learning/)
 
 In this series of lectures, we will look at the fundamental concepts of unsupervised and supervised learning, including the training, testing and evaluation of models for classification and regression.  We also explore the basic theory of neural networks and discuss their applications to deep learning.
 
