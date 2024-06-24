@@ -1,30 +1,31 @@
 ## What is Machine Learning?
-- Identifing pattrerns = unsupervised learning
-- Training models using data to make prediction = supervised learning
-- Neural Network more flexible and lead to more complex ones like LLM - deep learning![[Screenshot 2024-06-24 at 2.16.33 PM.png]]
-- Data driven predictions
+- Identifing **patterns** = unsupervised learning
+- Training **models** using data to make prediction = supervised learning
+- Neural Network = more flexible and lead to more complex ones like LLM = deep learning
+- Machine Learning is about data driven predictions
 ![[Screenshot 2024-06-24 at 2.18.53 PM.png]]
 ![[Screenshot 2024-06-24 at 2.19.47 PM.png]]
 ![[Screenshot 2024-06-24 at 2.20.54 PM.png]]
-
-## Data
+## 4 types of Data
 ### Categorical Data
 No numerical relationship between values
-- Nominal Data
-- Ordinal Data
+- **Nominal Data**
+- **Ordinal Data**
 ### Quantitative Data
 Numerical data from count and measurement
-- Discrete Data
+- **Discrete Data**
 	Specific numbers / not continuous
 	number of kids, shoe sizes
+- **Continuous data**
+
+- Features: column (or dimension even) in a dataset
 
 Example dataset - IRIS
 - Each columns are Continuous data (size)
 - Name of Iris = categorical and nominal data
-
 ## Learnings
 ### Unsupervised learning
-- discover new knowledge
+- To discover new knowledge
 	- Dimensionality reduction
 	- self organizing map (project a data)
 	- clustering
@@ -33,9 +34,11 @@ Example dataset - IRIS
 	- What do we define 'similar'?
 	- RGB (3 dimentional data) = color
 	- **Feature based**
+		- this type of clustering algorithm requires the individual data points to be represented by feature vectors.
 	- **Distance based**
+		- requires a matrix where each element represents the distance (or similarity) between pairs of data points
 	- Output
-		- flat: labeling
+		- flat: label
 		- Hierarchical: tree
 	- k-means clustering = feature based
 		- k=integar, number of clusters
