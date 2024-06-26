@@ -26,7 +26,7 @@ day 2 [[intro-to-ml-02]]
 - Weight and threshold?
 	- Special kind of fitting with the model
 	- penalty applied
-- ![[Screenshot 2024-06-26 at 2.29.30 PM.png]]
+- ![[Screenshot 2024-06-26 at 2.29.30 PM.png]](../d3/images/1.png)
 #### Ensemble Methods
 - multiple weak learners
 - same type
@@ -56,14 +56,14 @@ day 2 [[intro-to-ml-02]]
 - Inspired by nature
 - Important component: Many inputs to the cell, signal processed, and output through Axon
 - Perceptron (1958)
-	- ![[Screenshot 2024-06-26 at 3.11.31 PM.png]]
+	- ![[Screenshot 2024-06-26 at 3.11.31 PM.png]](../d3/images/2.png)
 	- Computational model
 	- weighted sum of multiple inputs (each being vector)
 	- weighted sum and bias (threshold) to generate output
 - On the higher level, it's single layer network
 	- Could be useful for linear regression or something
 - For non-linear stuffs, Multi-layer network (Multi-layer perceptron)
-	- ![[Screenshot 2024-06-26 at 3.13.27 PM.png]]
+	- ![[Screenshot 2024-06-26 at 3.13.27 PM.png]](../d3/images/3.png)
 	- 3 nodes inside the hidden layer (it's not actually hidden, we can manipulate it)
 	- This is a 'feedforward' network. no loop here in the structure. (we generally don't want them)
 	- hidden layer is 'representing' the previous information
@@ -76,7 +76,7 @@ day 2 [[intro-to-ml-02]]
 		- optimisation method
 		- at a point, moving to find a minimum lost function.
 		- practically, stochastic Gradient Descent
-		- ![[Screenshot 2024-06-26 at 3.22.35 PM.png]]
+		- ![[Screenshot 2024-06-26 at 3.22.35 PM.png]](../d3/images/4.png)
 		- cost function = color
 		- theta = logistic regression - coefficient
 		- arrive at the combination of parameters
@@ -84,7 +84,7 @@ day 2 [[intro-to-ml-02]]
 		- start with output layer, move through back layer to determine gradient of the loss function
 		- it requires me to have an activation function
 			- countinuous activation functions!
-			- ![[Screenshot 2024-06-26 at 3.28.50 PM.png]]
+			- ![[Screenshot 2024-06-26 at 3.28.50 PM.png]](../d3/images/5.png)
 			- Different shapes of functions affects the model
 	- Multi-layer network exercise
 		- Wine = non-linear!
@@ -96,18 +96,18 @@ day 2 [[intro-to-ml-02]]
 - Unstructured Data
 	- Images, Text, speech, music
 	- not in a table columns...
-- ![[Screenshot 2024-06-26 at 3.38.41 PM.png]]
+- ![[Screenshot 2024-06-26 at 3.38.41 PM.png]](../d3/images/6.png)
 - Pixels to features!
 	- image into data is easy
-	- but from that data, extracting useful information encoded ![[Screenshot 2024-06-26 at 3.39.39 PM.png]]
+	- but from that data, extracting useful information encoded ![[Screenshot 2024-06-26 at 3.39.39 PM.png]](../d3/images/7.png)
 	- relationship between eyes, nose, ears ...
 	- The idea of **convolution**
 		- preserves relationships in time/space
-		- ![[Screenshot 2024-06-26 at 3.41.49 PM.png]]
+		- ![[Screenshot 2024-06-26 at 3.41.49 PM.png]](../d3/images/8.png)
 		- consist extracting data
 	- Google Inception (2015)
-		- image classification model![[Screenshot 2024-06-26 at 3.45.27 PM.png]]
-		- large and small scale at the same time![[Screenshot 2024-06-26 at 3.46.06 PM.png]]
+		- image classification model![[Screenshot 2024-06-26 at 3.45.27 PM.png]](../d3/images/9.png)
+		- large and small scale at the same time![[Screenshot 2024-06-26 at 3.46.06 PM.png]](../d3/images/10.png)
 		- It allows to train the model and use this in other occasion
 			- before it makes decision, we can sort of intercept the embeddings made by the network
 			- random forest can get into embeddings, and there are lots of useful information in the embeddings.
